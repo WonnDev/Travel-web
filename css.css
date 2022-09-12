@@ -1,0 +1,208 @@
+
+a{
+    text-decoration: none ;
+}
+.text-top{
+	font-size: 12px;
+	text-decoration: none;
+	background-color: #41AE41;
+}
+.right{
+	float: right;
+	padding-right:  30px;
+}
+.text{
+	color: white;
+	text-decoration: none;
+    font-size:0.8rem;
+}
+.btn-login{
+	float: right !important;
+    padding-right: 20px;
+}
+.hotline{
+    color: green;
+    font-size: 25px;
+}
+.title{
+    padding: 5px;
+}
+.img-top{
+    max-height: 60px;
+    padding: 5px 0 ;
+}
+.flex{
+	display: flex;
+	flex-direction: column;	
+}
+.st{
+	margin: 0 10px;
+	padding: 0 10px;
+}
+.nav-bar{
+	z-index: 999;
+}
+.dropbtn{
+	padding: 10px;
+	font-size: 16px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover{
+	color:  white;
+	background-color: green;
+}
+.dropdown-content > li > a{
+  color: black;
+  padding: 12px 20px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.text-hover:hover{
+	color: green;
+	background-color: black;
+}
+/* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+
+.bg-full{
+	background-image: url('	https://adenztravel.vn/image/5f700a3eba9bf05bff9bcf1c/original.jpg');
+	width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolution;
+}
+.img-mid{
+	position: absolute;
+	left: calc(50vw - 300px);
+    top: calc(50% - 240px);
+    max-width: calc( 100vw - 100px );
+}
+.to_bottom{
+	position: absolute;
+    bottom: 70px;
+    left: calc(50vw - 25px);
+    width: 50px;
+}
+.main{
+	padding: 20px 20px!important;
+}
+.menu-text{
+	font-size: 2.5vw; 
+	text-align: center;
+    text-transform: uppercase;
+    color:  #4DB848;
+}
+.text-white{
+	color:  white;
+}
+.clear-menu{
+    height: 5px;
+   	background-color: #4DB848;
+    margin: 10px auto;
+    text-align: center;
+}
+.text-right > a {
+	text-align: right;
+	font-size: 10px;
+	color: #4DB848;
+	text-decoration: none;
+}
+.nav-bar{
+	position: fixed ;
+	background-color: #f1f1f1;
+    /* top: -100%; */
+    top: 0;
+    width: 100%;
+    /* display: block; */
+    transition: top 0.3s;
+}
+.b-btng{
+	position: absolute;
+	width: 100%;
+	border: 1px solid #333 ;
+}
+.group-item{
+	border-top: 1px solid #EEEEEE ;
+	border-bottom: 1px solid #EEEEEE ;
+}
+.text-info{
+	text-decoration: none ;
+	float: right ;
+	font-size:10px;
+	color: #4DB848
+}
+.scale-image /* .info-tour */{
+	overflow:  hidden;
+	max-width: 100%;
+}
+.image-item{
+	position: relative;
+	border: 1px solid #EEEEEE;
+    box-shadow: 0px 12px 20px 0px rgba(0,0,0,0.2);
+}
+.list-new{
+	list-style: none;
+}
+.content{
+	position: absolute;
+	background-color: #4db848b0;
+	font-size: 20px;
+	width: 100%;
+	display: block;
+	height: 40px;
+	bottom: 80px;
+}
+info-item p {
+	margin-bottom: 0;
+}
+.info-item{
+	display: contents;
+}
+.item-tour{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.prince{
+	color: red;
+	position: absolute;
+	font-weight: bold;
+    font-size: 20px;
+    right: 10px;
+	bottom: 5px;
+}
+span > a > p{
+	display: inline!important;
+}
+
+
+.zoom {
+  transition: transform .8s;
+}
+.zoom:hover {
+  transform: scale(1.2);	
+}
+@media screen {
+	.menu-top{
+		
+	}
+}
+/* position */
+
+

@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+ul li {
+    text-decoration: none ;
+    list-style: none;
+}
+div > a{
+    text-decoration: none;
+    list-style: none;
+}
+div.container div.all{
+
+}
+.row > * {
+    padding-right: 0;
+    padding-left: 0;
+}
+.img-top{
+    max-height: 60px;
+    padding: 5px 0 ;
+}
+.dropbtn{
+    padding: 16px;
+    font-size: 16px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover{
+    color:  white;
+    background-color: green;
+}
+.dropdown-content > li > a{
+  color: black;
+  padding: 12px 20px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+div > ul > li{
+    font-size: 13px;
+
+}
+div > ul {
+    margin-left:  0;
+    padding-left:  0;
+}
+.card-text{
+    font-size: 14px;
+}
+.item-news{
+    padding-top:  20px;
+}
+.text{
+    color:  white;
+    font-size:0.8rem;
+}
+.text-hover:hover{
+    color: green;
+    background-color: black;
+}
+.text-top{
+    background-color: #41AE41;
+}
+.b-btng{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+.btn{
+    font-size: 15px ;
+}
+
+
+.nav-bar{
+    z-index: 999;
+}
+.bold{
+    font-weight: bold;
+}
+.list{
+    text-align: left;
+}
+
+.btn-login{
+    float: right !important;
+    padding-right: 20px;
+}
+.hotline{
+    color: green;
+    font-size: 25px;
+}
+.title{
+    padding: 5px;
+    text-align: left;
+}
+.row1{
+    padding-left: 0px;
+}
+.row > div{
+    width: 100%;
+}
+.r-right > div{
+    width: 100%;
+}
+.bold{
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.bold > div{
+    width:  50%;
+}
+.mini-text{
+    color: #41AE41;
+    float: right !important;
+    font-size: 0.5rem;
+    text-align: right;
+}
+.scale-img{
+    overflow: hidden;
+}
+.row{
+    
+    padding: 0 10px;
+}
+
+.img{
+    max-width: 100%;
+}
+.bor{
+    overflow: hidden;
+}
+
+.zoom {
+  transition: transform 0.8s;
+}
+.zoom:hover {
+  transform: scale(1.2);
+}
+div > .card-body{
+    padding: 10px;
+}
+.card-time{
+    color: grey;
+    font-size: 10px;
+    text-align: right;
+}
+.card{
+    box-shadow:6px 8px 10px #0000001c;
+}
+.bottom{
+    text-align: center;
+    list-style-type: none;
+    padding-top: 20px;
+    font-size: 1rem;
+}
+.img {
+    text-align: center;
+}
+
